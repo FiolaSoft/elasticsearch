@@ -1,0 +1,18 @@
+# DI Extension
+extensions:
+    elasticsearch: FiolaSoft\ElasticSearch\DI\ElasticSearchExtension
+
+# Simple host definition
+elasticsearch:
+    hosts:
+        - 'localhost'
+
+# Advanced host definition
+elasticsearch:
+    hosts:
+        -
+            host: 'localhost'
+            port: 9200
+            scheme: 'https'
+            user: 'foo'
+            pass: 'bar'
