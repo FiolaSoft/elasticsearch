@@ -16,7 +16,7 @@
         "email": "vojtech.mares@fiolasoft.cz",
         "issues": "https://github.com/FiolaSoft/elasticsearch/issues"
     },
-    "license": "MIT License",
+    "license": "MIT",
     "authors": [
         {
             "name": "Vojtěch Mareš",
