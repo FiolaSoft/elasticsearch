@@ -1,0 +1,31 @@
+{
+    "name": "fiolasoft/elasticsearch",
+    "description": "Itegration of elasticsearch/elasticsearch into Nette framework",
+    "keywords": ["nette", "fiolasoft", "elasticsearch", "search", "elastic", "es"],
+    "homepage": "https://fiolasoft.com",
+    "type": "library",
+    "require": {
+        "php": ">=7.1",
+        "nette/di": "^2.4",
+        "elasticsearch/elasticsearch": "^6.0"
+    },
+    "require-dev": {
+        "nette/tester": "^2.0"
+    },
+    "support": {
+        "email": "vojtech.mares@fiolasoft.cz",
+        "issues": "https://github.com/FiolaSoft/elasticsearch/issues"
+    },
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Vojtěch Mareš",
+            "email": "ja@vojtamares.cz"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "FiolaSoft\\ElasticSearch\\": "src/"
+        }
+    }
+}
