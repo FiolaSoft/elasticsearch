@@ -17,6 +17,12 @@ This is integration of **elasticsearch/elasticsearch (elastic/elasticsearch-php)
 ![Packagist Pre Release](https://img.shields.io/packagist/vpre/FiolaSoft/elasticsearch.svg)
 
 ## Installation
+Via composer:
+```bash
+composer require fiolasoft/elasticsearch
+```
+
+Register extension in your `config.neon`:
 ```yaml
 extensions:
     elasticsearch: FiolaSoft\Elasticsearch\DI\ElasticsearchExtension

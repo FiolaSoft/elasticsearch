@@ -27,7 +27,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "FiolaSoft\\": "src/"
+            "FiolaSoft\\Elasticsearch\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
         }
     },
     "scripts": {

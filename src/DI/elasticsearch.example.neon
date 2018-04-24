@@ -5,13 +5,14 @@ extensions:
 # Simple host definition
 elasticsearch:
     hosts:
-        - 'localhost'
+        - 'example.com'
 
 # Advanced host definition
 elasticsearch:
+    #This is effectively equal to: "https://foo:bar@example.com:9200/"
     hosts:
         -
-            host: 'localhost'
+            host: 'example.com'
             port: 9200
             scheme: 'https'
             user: 'foo'
