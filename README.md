@@ -1,6 +1,20 @@
 # FiolaSoft/Elasticsearch
-
 This is integration of **elasticsearch/elasticsearch (elastic/elasticsearch-php)** into Nette framework.
+
+-----
+
+**Build status**
+
+[![Build Status](https://travis-ci.org/FiolaSoft/elasticsearch.svg?branch=master)](https://travis-ci.org/FiolaSoft/elasticsearch)
+[![Coverage Status](https://coveralls.io/repos/github/FiolaSoft/elasticsearch/badge.svg?branch=master)](https://coveralls.io/github/FiolaSoft/elasticsearch?branch=master)
+![License](https://img.shields.io/github/license/FiolaSoft/elasticsearch.svg)
+
+**Packagist stats**
+
+![Packagist Downloads](https://img.shields.io/packagist/dt/FiolaSoft/elasticsearch.svg)
+![Packagist Downloads per month](https://img.shields.io/packagist/dm/FiolaSoft/elasticsearch.svg)
+![Packagist](https://img.shields.io/packagist/v/FiolaSoft/elasticsearch.svg)
+![Packagist Pre Release](https://img.shields.io/packagist/vpre/FiolaSoft/elasticsearch.svg)
 
 ## Installation
 ```yaml
