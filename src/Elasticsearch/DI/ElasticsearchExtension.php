@@ -1,14 +1,13 @@
 <?php
 declare(strict_types=1);
 
-
-namespace FiolaSoft\ElasticSearch\DI;
+namespace FiolaSoft\Elasticsearch\DI;
 
 use Elasticsearch\Client;
 use Elasticsearch\ClientBuilder;
 use Nette\DI\CompilerExtension;
 
-class ElasticSearchExtension extends CompilerExtension
+class ElasticsearchExtension extends CompilerExtension
 {
     /**
      * @var array

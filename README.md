@@ -1,11 +1,11 @@
-# FiolaSoft/ElasticSearch
+# FiolaSoft/Elasticsearch
 
-This is integration of **elasticsearch/elasticsearch** into Nette framework.
+This is integration of **elasticsearch/elasticsearch (elastic/elasticsearch-php)** into Nette framework.
 
 ## Installation
 ```yaml
 extensions:
-    elasticsearch: FiolaSoft\ElasticSearch\DI\ElasticSearchExtension
+    elasticsearch: FiolaSoft\Elasticsearch\DI\ElasticsearchExtension
 ```
 
 ## Configuration
@@ -30,12 +30,11 @@ elasticsearch:
 **NOTE:** The `host` is required, others are recommanded, but not necessary.
 
 
-Find more about [elasticsearch/elasticsearch](https://github.com/elastic/elasticsearch-php).
+Find out more about [elasticsearch/elasticsearch (elastic/elasticsearch-php)](https://github.com/elastic/elasticsearch-php).
 
-And there are [ElasticSearch docs](https://www.elastic.co/guide/en/elasticsearch/client/php-api/5.0/index.html)
+And there is [Elasticsearch docs](https://www.elastic.co/guide/en/elasticsearch/client/php-api/5.0/index.html)
 
-### TODO List
-- tests & Travis
+### TODO
 
 ### Future plans
 - tracy debug panel listing all queries, full result inspection *Yes, I take some inspiration from [kdyby/elasticsearch](https://github.com/Kdyby/ElasticSearch/)
