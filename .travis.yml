@@ -33,7 +33,6 @@ jobs:
     - stage: phpstan
       php: 7.1
       script:
-        - composer run-script phpstan-install
         - composer run-script phpstan
 
 after_failure:

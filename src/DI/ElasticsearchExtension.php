@@ -10,7 +10,7 @@ use Nette\DI\CompilerExtension;
 
 class ElasticsearchExtension extends CompilerExtension
 {
-    /** @var array|string[] */
+    /** @var mixed */
     public $defaults = [
             'hosts' => ['localhost'],
         ];
