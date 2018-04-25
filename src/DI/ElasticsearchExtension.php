@@ -1,4 +1,6 @@
-<?php declare(strict_types = 1);
+<?php
+
+declare(strict_types=1);
 
 namespace FiolaSoft\Elasticsearch\DI;
 
@@ -8,27 +10,19 @@ use Nette\DI\CompilerExtension;
 
 class ElasticsearchExtension extends CompilerExtension
 {
-
-	/**
-	 * @var array|string[]
-	 */
+    /** @var array|string[] */
     public $defaults = [
-    		'hosts' => [
-    				'localhost',
-				],
-		];
+            'hosts' => ['localhost'],
+        ];
 
-    /**
-     * @return void
-     */
-    public function beforeCompile(): void
+    public function beforeCompile() : void
     {
         $config = $this->getConfig($this->defaults);
 
         $builder = $this->getContainerBuilder();
 
         $builder->addDefinition($this->prefix('clientBuilder'))
-			->setClass(ClientBuilder::class)
+            ->setClass(ClientBuilder::class)
             ->setFactory([ClientBuilder::class, 'create'])
             ->setArguments($config['hosts']);
 
@@ -36,5 +30,4 @@ class ElasticsearchExtension extends CompilerExtension
             ->setClass(Client::class)
             ->setFactory(['@' . $this->prefix('clientBuilder'), 'build']);
     }
-
 }
