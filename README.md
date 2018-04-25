@@ -11,10 +11,10 @@ This is integration of **elasticsearch/elasticsearch (elastic/elasticsearch-php)
 
 **Packagist stats**
 
-![Packagist Downloads](https://img.shields.io/packagist/dt/FiolaSoft/elasticsearch.svg)
-![Packagist Downloads per month](https://img.shields.io/packagist/dm/FiolaSoft/elasticsearch.svg)
-![Packagist](https://img.shields.io/packagist/v/FiolaSoft/elasticsearch.svg)
-![Packagist Pre Release](https://img.shields.io/packagist/vpre/FiolaSoft/elasticsearch.svg)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/FiolaSoft/elasticsearch.svg)](https://packagist.org/packages/fiolasoft/elasticsearch)
+[![Packagist Downloads per month](https://img.shields.io/packagist/dm/FiolaSoft/elasticsearch.svg)](https://packagist.org/packages/fiolasoft/elasticsearch)
+[![Packagist](https://img.shields.io/packagist/v/FiolaSoft/elasticsearch.svg)](https://packagist.org/packages/fiolasoft/elasticsearch)
+[![Packagist Pre Release](https://img.shields.io/packagist/vpre/FiolaSoft/elasticsearch.svg)](https://packagist.org/packages/fiolasoft/elasticsearch)
 
 ## Installation
 Via composer:
