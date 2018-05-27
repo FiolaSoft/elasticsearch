@@ -1,14 +1,7 @@
 # Elasticsearch
 ## Table of Content
-- [Installation - how to install](#installation)
 - [Usage - how to register](#usage)
 - [Configuration - how to configure](#configuration)
-
-## Installation
-Via composer:
-```bash
-composer require fiolasoft/elasticsearch
-```
 
 ## Usage
 Register extension in your `config.neon`:

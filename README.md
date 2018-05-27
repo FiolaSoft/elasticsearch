@@ -16,8 +16,20 @@ This is integration of **[elasticsearch/elasticsearch (elastic/elasticsearch-php
 [![Packagist](https://img.shields.io/packagist/v/FiolaSoft/elasticsearch.svg)](https://packagist.org/packages/fiolasoft/elasticsearch)
 [![Packagist Pre Release](https://img.shields.io/packagist/vpre/FiolaSoft/elasticsearch.svg)](https://packagist.org/packages/fiolasoft/elasticsearch)
 
+## Install
+Via composer:
+```bash
+composer require fiolasoft/elasticsearch
+```
+
+## Versions
+
+| State   | Version    | Branch   | PHP     |
+|---------|------------|----------|---------|
+| dev     | dev-master | `master` | `>=7.1` |
+| stable  | `^0.1`     | `master` | `>=7.1` |
+
 ## Overview
-- [Installation - how to install](https://github.com/fiolasoft/elasticsearch/blob/master/.docs/README.md#installation)
 - [Usage - how to register](https://github.com/fiolasoft/elasticsearch/blob/master/.docs/README.md#usage)
 - [Configuration - how to configure](https://github.com/fiolasoft/elasticsearch/blob/master/.docs/README.md#configuration)
 
