@@ -26,7 +26,5 @@ Find out more about [elasticsearch/elasticsearch (elastic/elasticsearch-php)](ht
 
 And there is [Elasticsearch docs](https://www.elastic.co/guide/en/elasticsearch/client/php-api/5.0/index.html)
 
-### TODO
-
 ### Future plans
-- tracy debug panel listing all queries, full result inspection *Yes, I take some inspiration from [kdyby/elasticsearch](https://github.com/Kdyby/ElasticSearch/)
+- tracy debug panel listing all queries, full result inspection *Yes, I took some inspiration from [kdyby/elasticsearch](https://github.com/Kdyby/ElasticSearch/) which is no longer in development :(
