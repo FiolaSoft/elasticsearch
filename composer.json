@@ -51,7 +51,7 @@
             "tester -s -p php --colors 1 -C -d extension=xdebug.so --coverage ./coverage.xml --coverage-src ./src tests/cases"
         ],
         "phpstan": [
-            "phpstan analyse -l 7 -c phpstan.neon src"
+            "phpstan analyse -l 7 -c .phpstan.neon src"
         ]
     }
 }

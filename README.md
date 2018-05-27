@@ -1,5 +1,5 @@
 # FiolaSoft/Elasticsearch
-This is integration of **elasticsearch/elasticsearch (elastic/elasticsearch-php)** into Nette framework.
+This is integration of **[elasticsearch/elasticsearch (elastic/elasticsearch-php)](https://github.com/elastic/elasticsearch-php)** into Nette framework.
 
 -----
 
@@ -16,38 +16,10 @@ This is integration of **elasticsearch/elasticsearch (elastic/elasticsearch-php)
 [![Packagist](https://img.shields.io/packagist/v/FiolaSoft/elasticsearch.svg)](https://packagist.org/packages/fiolasoft/elasticsearch)
 [![Packagist Pre Release](https://img.shields.io/packagist/vpre/FiolaSoft/elasticsearch.svg)](https://packagist.org/packages/fiolasoft/elasticsearch)
 
-## Installation
-Via composer:
-```bash
-composer require fiolasoft/elasticsearch
-```
-
-Register extension in your `config.neon`:
-```yaml
-extensions:
-    elasticsearch: FiolaSoft\Elasticsearch\DI\ElasticsearchExtension
-```
-
-## Configuration
-#### Minimal configuration
-```yaml
-elasticsearch:
-    hosts:
-      - 'localhost'
-```
-#### Advanced configuration
-```yaml
-elasticsearch:
-    hosts:
-        -
-            host: 'localhost'
-            port: 9200
-            scheme: 'https'
-            user: 'foo'
-            pass: 'bar'
-```
-
-**NOTE:** The `host` is required, others are recommanded, but not necessary.
+## Overview
+- [Installation - how to install](https://github.com/fiolasoft/elasticsearch/blob/master/.docs/README.md#installation)
+- [Usage - how to register](https://github.com/fiolasoft/elasticsearch/blob/master/.docs/README.md#usage)
+- [Configuration - how to configure](https://github.com/fiolasoft/elasticsearch/blob/master/.docs/README.md#configuration)
 
 
 Find out more about [elasticsearch/elasticsearch (elastic/elasticsearch-php)](https://github.com/elastic/elasticsearch-php).
