@@ -18,3 +18,8 @@ indent_size = 4
 [{composer.json}]
 indent_style = space
 indent_size = 2
+
+# Travis, PHPSTAN
+[{.travis.yml,.phpstan.neon}]
+indent_style = space
+indent_size = 2

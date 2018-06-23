@@ -3,6 +3,12 @@ This is integration of **[elasticsearch/elasticsearch (elastic/elasticsearch-php
 
 -----
 
+## This package is abandoned!
+
+Use [contributte/elasticsearch](https://github.com/contributte/elasticsearch) instead (the package was moved).
+
+-----
+
 **Build status**
 
 [![Build Status](https://travis-ci.org/FiolaSoft/elasticsearch.svg?branch=master)](https://travis-ci.org/FiolaSoft/elasticsearch)
